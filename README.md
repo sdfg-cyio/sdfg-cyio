@@ -2,17 +2,17 @@
 
 <!--ANIME-START-->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://nekos.best/api/v2/kitsune/5292a256-54e9-4193-9dc8-920823e38e3b.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://nekos.best/api/v2/neko/67264f1d-8f5c-46bc-997d-2fe0e3150944.png">
-  <img src="https://nekos.best/api/v2/neko/67264f1d-8f5c-46bc-997d-2fe0e3150944.png" width="280" align="right" alt="今日看板娘"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://nekos.best/api/v2/kitsune/f0a92aad-0b0e-4cc8-8019-80e759fd32d7.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://nekos.best/api/v2/neko/a0a95a9b-6a26-4e14-a051-0766290ef51b.png">
+  <img src="https://nekos.best/api/v2/neko/a0a95a9b-6a26-4e14-a051-0766290ef51b.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
 ### 🌸 今日看板娘 · 2026-07-21
 
-**今日运势：中吉**
-今天记得喝水，每小时一杯。
+**今日运势：大吉 🌟**
+今天的你，比昨天更 kawaii。
 
-画师：ねい
+画师：かふか
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
