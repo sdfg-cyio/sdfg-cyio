@@ -1,0 +1,92 @@
+方案一：每日自动换装的"看板娘"（新颖度 ★★★★★）
+效果： 你的主页每天 0 点会自动换一张新的动漫插图，并附上一句"今日运势"。访客每次来看到的都不一样，而且整个过程全自动，你什么都不用做。
+
+原理： GitHub Actions（GitHub 自带的免费机器人）每天定时运行一个 Python 脚本，脚本去免费动漫图 API 抓一张图，改写 README，然后自动提交。
+
+第一步： 在 README.md 里放好"占位标记"：
+
+MARKDOWN
+# Hi，欢迎来到我的小站 🏠
+
+<!--ANIME-START-->
+（这里每天会被机器人自动替换，不用动它）
+<!--ANIME-END-->
+
+下面写你自己的介绍……
+第二步： 在仓库里新建 update.py：
+
+PYTHON
+import requests, re, random, datetime
+
+# nekos.best 是一个免费的动漫图片 API（全年龄向）
+res = requests.get("https://nekos.best/api/v2/neko").json()
+img_url = res["results"][0]["url"]
+artist = res["results"][0].get("artist_name") or "未知画师"
+
+# 每日运势抽签
+fortunes = [
+    ("大吉 🌟", "今天写的代码一次通过，没有 bug！"),
+    ("中吉", "适合学习新技术的一天。"),
+    ("小吉", "记得提交代码，别忘了 push。"),
+    ("末吉", "小心命名冲突……"),
+]
+luck, msg = random.choice(fortunes)
+today = datetime.date.today().strftime("%Y-%m-%d")
+
+new_block = f"""<!--ANIME-START-->
+### 🌸 今日看板娘 · {today}
+
+<img src="{img_url}" width="280" align="right"/>
+
+**今日运势：{luck}**
+{msg}
+
+画师：{artist}
+*每天 0 点由 GitHub Actions 自动更新*
+<!--ANIME-END-->"""
+
+readme = open("README.md", encoding="utf-8").read()
+readme = re.sub(r"<!--ANIME-START-->.*?<!--ANIME-END-->", new_block, readme, flags=re.S)
+open("README.md", "w", encoding="utf-8").write(readme)
+第三步： 新建文件 .github/workflows/daily.yml（注意文件夹层级）：
+
+YAML
+name: 每日更新看板娘
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每天 UTC 0 点（北京时间早上 8 点）
+  workflow_dispatch:       # 允许你手动点按钮触发（方便测试）
+
+permissions:
+  contents: write          # 给机器人修改仓库的权限
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 运行更新脚本
+        run: python update.py
+      - name: 提交更改
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "🌸 今日看板娘已更新"
+          git push
+提交这三个文件后，去仓库的 Actions 标签页手动运行一次测试，成功的话你的 README 就会出现第一位看板娘。之后每天自动轮换。
+
+方案三：明暗双色"彩蛋主页"（新颖度 ★★★★★）
+效果： 白天（浅色模式）的访客看到一张白天的动漫场景；晚上（深色模式）的访客看到的是同一场景的夜景版，甚至藏着只有夜里才能看到的秘密留言。
+
+原理： GitHub 会过滤 CSS，但保留了 <picture> 标签的明暗模式适配能力。这是极少人知道的技巧：
+
+MARKDOWN
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="night.png">
+  <source media="(prefers-color-scheme: light)" srcset="day.png">
+  <img src="day.png" width="100%" alt="白天与夜晚">
+</picture>
+你只需要准备两张图（比如用 AI 绘画生成同一场景的日/夜版本），访客切换系统深色模式时，你的主页会"天黑"。🌃
+
+进阶彩蛋： 在夜景图的角落里画上发光的小字（比如"嘘，夜访者限定：我最喜欢的番是《XXX》"），只有深色模式用户能看到——这是属于你主页的都市传说。
