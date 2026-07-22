@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-07-21
+### 🌸 今日看板娘 · 2026-07-22
 
-**今日运势：末吉**
-今天少喝点咖啡。
+**今日运势：中吉**
+yyds，今天也是被纸片人治愈的一天。
 
-画师：Lillust
+画师：佐藤
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
