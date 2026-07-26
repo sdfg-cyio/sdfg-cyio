@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-07-25
+### 🌸 今日看板娘 · 2026-07-26
 
-**今日运势：中吉**
-今天记得喝水，每小时一杯。
+**今日运势：末吉**
+小心命名冲突，记得看 diff。
 
-画师：nick
+画师：sia
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
