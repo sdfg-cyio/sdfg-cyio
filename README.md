@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-07-28
+### 🌸 今日看板娘 · 2026-07-29
 
 **今日运势：中吉**
-适合重构祖传代码的一天。
+今天不会有 merge conflict。
 
-画师：星井やな
+画师：Nimiru Namire
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
