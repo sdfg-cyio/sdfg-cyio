@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-07-29
+### 🌸 今日看板娘 · 2026-07-30
 
-**今日运势：中吉**
-今天不会有 merge conflict。
+**今日运势：小吉**
+给家人朋友打个电话吧。
 
-画师：Nimiru Namire
+画师：M.とーこつ
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
