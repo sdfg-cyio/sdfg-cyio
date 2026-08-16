@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-08-15
+### 🌸 今日看板娘 · 2026-08-16
 
-**今日运势：中吉**
-Stack Overflow 上的第一个回答就是正解。
+**今日运势：大吉 🌟**
+今天的你，比昨天更 kawaii。
 
-画师：ﾖｿﾞﾗ
+画师：木塘ムタン
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
