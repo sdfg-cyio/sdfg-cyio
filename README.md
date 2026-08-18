@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-08-17
+### 🌸 今日看板娘 · 2026-08-18
 
-**今日运势：末吉**
-小心命名冲突，记得看 diff。
+**今日运势：中吉**
+今天不会有 merge conflict。
 
-画师：佐伯ソラ
+画师：MisuzuFaraday
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
