@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-08-20
+### 🌸 今日看板娘 · 2026-08-21
 
 **今日运势：末吉**
-今天少喝点咖啡。
+小心命名冲突，记得看 diff。
 
-画师：soybean
+画师：でじ
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
