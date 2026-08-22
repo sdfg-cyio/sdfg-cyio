@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-08-21
+### 🌸 今日看板娘 · 2026-08-22
 
-**今日运势：末吉**
-小心命名冲突，记得看 diff。
+**今日运势：大吉 🌟**
+今天的你，比昨天更 kawaii。
 
-画师：でじ
+画师：rei
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
