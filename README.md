@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-09-17
+### 🌸 今日看板娘 · 2026-09-18
 
-**今日运势：大吉 🌟**
-适合出门走走，别光对着屏幕。
+**今日运势：中吉**
+今天不会有 merge conflict。
 
-画师：むんもっしゅ
+画师：yunmu_g
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
