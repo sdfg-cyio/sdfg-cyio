@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-09-19
+### 🌸 今日看板娘 · 2026-09-20
 
-**今日运势：大吉 🌟**
-今天的你，比昨天更 kawaii。
+**今日运势：中吉**
+早睡早起，精神百倍。
 
-画师：SAHARA
+画师：Mellozzo
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
