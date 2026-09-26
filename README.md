@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-09-25
+### 🌸 今日看板娘 · 2026-09-26
 
 **今日运势：中吉**
-今天记得喝水，每小时一杯。
+早睡早起，精神百倍。
 
-画师：Hinomi
+画师：結々木
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
