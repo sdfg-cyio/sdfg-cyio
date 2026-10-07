@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-10-06
+### 🌸 今日看板娘 · 2026-10-07
 
-**今日运势：中吉**
-Stack Overflow 上的第一个回答就是正解。
+**今日运势：末吉**
+小心命名冲突，记得看 diff。
 
-画师：Ao
+画师：よだちき
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
