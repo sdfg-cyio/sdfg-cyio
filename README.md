@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-10-16
+### 🌸 今日看板娘 · 2026-10-17
 
-**今日运势：大吉 🌟**
-今天的你，比昨天更 kawaii。
+**今日运势：小吉**
+整理一下桌面，心情也会变好。
 
-画师：oli_o_o
+画师：Astre
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
