@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-11-03
+### 🌸 今日看板娘 · 2026-11-04
 
-**今日运势：大吉 🌟**
-产品经理今天请假，需求不会变更。
+**今日运势：末吉**
+今天不要立 flag。
 
-画师：Uzume / うずめ
+画师：Zephryion
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
