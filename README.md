@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-11-04
+### 🌸 今日看板娘 · 2026-11-05
 
-**今日运势：末吉**
-今天不要立 flag。
+**今日运势：小吉**
+记得提交代码前先跑一遍测试。
 
-画师：Zephryion
+画师：Litch_1811
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
