@@ -7,12 +7,12 @@
   <img src="assets/day.png" width="280" align="right" alt="今日看板娘"/>
 </picture>
 
-### 🌸 今日看板娘 · 2026-11-22
+### 🌸 今日看板娘 · 2026-11-24
 
-**今日运势：小吉**
-别在周五下午部署。
+**今日运势：末吉**
+今天不要立 flag。
 
-画师：Hatsuseno
+画师：ピロリ菌
 *每天 0 点由 GitHub Actions 自动更新 | 切换深色模式看看？*
 <!--ANIME-END-->
 
